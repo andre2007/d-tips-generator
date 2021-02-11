@@ -12,6 +12,7 @@
     "configurations": [{
             "name": "debug",
             "targetType": "executable",
+			"targetName": "dtg",
 			"excludedSourceFiles": ["source/dtg/testapp.d"]
         }, {
             "name": "unittest",
