@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+d-tips-generator.so
+d-tips-generator.dylib
+d-tips-generator.dll
+d-tips-generator.a
+d-tips-generator.lib
+d-tips-generator-test-*
+*.exe
+*.o
+*.obj
+*.lst
