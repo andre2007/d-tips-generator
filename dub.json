@@ -1,0 +1,23 @@
+{
+    "authors": [
+        "Andre Pany"
+    ],
+    "copyright": "Copyright © 2021, Andre Pany",
+    "description": "Generator for d-tips page.",
+    "license": "BSL-1.0",
+    "name": "d-tips-generator",
+    "dependencies": {
+        "dyaml": "0.8.3"
+    },
+    "configurations": [{
+            "name": "debug",
+            "targetType": "executable",
+			"excludedSourceFiles": ["source/dtg/testapp.d"]
+        }, {
+            "name": "unittest",
+            "targetType": "executable",
+			"mainSourceFile": "source/dtg/testapp.d",
+			"excludedSourceFiles": ["source/dtg/app.d"]
+        }
+    ]
+}
