@@ -3,6 +3,7 @@ docs.json
 __dummy.html
 docs/
 dtg
+!source/dtg
 dtg.so
 dtg.dylib
 dtg.dll

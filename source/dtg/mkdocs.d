@@ -51,7 +51,10 @@ class MkdocsBuilder
         "  - By tags: tags.md\n" ~
         "\n" ~
         "markdown_extensions:\n" ~
-        "  - codehilite\n";
+        "  - codehilite\n" ~
+        "  - pymdownx.emoji:\n" ~
+        "      emoji_index: !!python/name:materialx.emoji.twemoji\n" ~
+        "      emoji_generator: !!python/name:materialx.emoji.to_svg\n";
 
         result.toFile(buildPath(_outputFolder, "mkdocs.yml"));
     }
